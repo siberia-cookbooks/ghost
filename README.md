@@ -27,10 +27,16 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['ghost']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['ghost']['gid']</tt></td>
+    <td>Integer</td>
+    <td>Group ID for the ghost group</td>
+    <td><tt>1080</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['ghost']['uid']</tt></td>
+    <td>Integer</td>
+    <td>User ID for the ghost user</td>
+    <td><tt>1080</tt></td>
   </tr>
 </table>
 
