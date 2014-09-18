@@ -38,3 +38,9 @@ execute "set-no-password-for-ghost-user" do
   command "passwd -N ghost"
   action :nothing
 end
+
+directory "/home/ghost" do
+  owner "ghost"
+  group "ghost"
+  mode "0751"
+end
