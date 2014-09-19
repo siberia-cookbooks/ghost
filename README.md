@@ -15,9 +15,7 @@ e.g.
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
 
-e.g.
 #### ghost::default
 <table>
   <tr>
@@ -37,6 +35,18 @@ e.g.
     <td>Integer</td>
     <td>User ID for the ghost user</td>
     <td><tt>1080</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['ghost']['email']</tt></td>
+    <td>String</td>
+    <td>Email address to use for outgoing emails</td>
+    <td><tt>ghost@kaizengarden.co</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['ghost']['url']</tt></td>
+    <td>String</td>
+    <td>URL for the ghost install</td>
+    <td><tt>blog.kaizengarden.co</tt></td>
   </tr>
 </table>
 
