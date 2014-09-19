@@ -10,4 +10,6 @@
 default['ghost'] = {
   'uid' => '1080',
   'gid' => '1080',
+  'url' => 'blog.kaizengarden.co',
+  'email' => 'ghost@kaizengarden.co',
 }
